@@ -1,26 +1,57 @@
-# Hi, I'm Ravin Elango
+# Ravin Elango
 
-**AI Quality & Evaluation Leader** in Chicago. I've spent 10+ years leading QA, test automation, performance testing, and UAT in healthcare, automotive, and fintech. Now I apply that discipline to LLM and generative AI quality.
+**AI Evaluation & Quality Engineer** · I make LLM and agent systems measurable, reliable, and safe to ship.
 
-## What I'm building
+10+ years leading QA, test automation, performance/load testing, and UAT in healthcare, automotive, and fintech. Now applying that discipline to LLM and GenAI quality: evals, golden datasets, graders you can trust, and release gates that stop regressions before users see them.
 
-**[ai-qa-eval](https://github.com/ravinelango/ai-qa-eval)** tests an LLM application the way a QA team would:
+## What I do
 
-1. **RAG evaluation harness with a CI release gate**: a golden dataset, Ragas and DeepEval metrics, a validated LLM-as-a-judge, and a gate that blocks regressions.
-2. **Agent red-team suite**: prompt injection and jailbreak cases, plus promptfoo and garak scans, mapped to the OWASP Top 10 for LLM Applications.
-3. **Model-upgrade regression dashboard**: quality, latency, and cost tracking, with paired statistics and go/no-go rules for model or prompt changes.
+- **Eval strategy & harnesses:** turning "does it work?" into golden datasets, rubrics, and automated eval suites wired into CI
+- **LLM-as-a-judge, validated:** measuring judge agreement against human-in-the-loop labels before trusting any score
+- **RAG & agent evaluation:** retrieval quality, faithfulness, tool use, and failure taxonomies from error analysis
+- **Safety & red teaming:** prompt injection and jailbreak testing mapped to the OWASP Top 10 for LLM Applications, plus guardrail checks
+- **Release gates & regression:** go/no-go rules for model and prompt upgrades, with quality, latency, and cost tracked together
+- **Regulated-domain rigor:** healthcare EDI/HIPAA testing and FDA 21 CFR Part 11 validation
 
-Ground rule: no made-up evidence. Every number comes from a saved run.
+## Selected impact
 
-## Highlights from my QA career
+- Built an AI-driven Python/Playwright test automation solution that avoided about **$200K** in licensing costs
+- Used ChatGPT and Claude to cut manual test design and root-cause analysis effort by about **70%**
+- Cut mobile app crashes from **2% to 0.7%** and lifted the app rating from **2.9 to 4.5**
+- Led UAT for a health record portal serving about **50 million** consumers
+- Designed a UAT strategy that raised defect detection efficiency **39%** with **98%** coverage
+- Built a Tosca framework from scratch: test coverage/accuracy up **88%**, time to release down **45%**
+- Led onshore/offshore QA teams; built Azure/KQL monitoring dashboards
 
-- Built an AI-driven Python/Playwright test automation solution that avoided about $200K in licensing costs
-- Used LLMs to cut manual test design and root-cause analysis effort by about 70%
-- Brought mobile app crashes down from 2% to 0.7% and lifted the app's rating from 2.9 to 4.5 stars
-- Led UAT for a health record portal serving about 50 million consumers
+## Featured projects
 
-## Toolbox
+### [part11-eval-evidence](https://github.com/ravinelango/part11-eval-evidence)
 
-Python · pytest · Playwright · Selenium · promptfoo · DeepEval · Ragas · Langfuse · Arize Phoenix · LangSmith · OpenAI & Claude APIs · GitHub Actions · LoadRunner · JMeter · Azure · AWS
+Turns an LLM eval run into an audit-ready validation record: a SHA-256 hash-chained run log with a `verify` command that catches edits, a requirements traceability matrix, and a one-page validation summary, each mapped to FDA 21 CFR Part 11 clauses. Early stage with synthetic example data only; it supports evidence and is not itself a compliant system.
 
-📫 [LinkedIn](https://www.linkedin.com/in/ravinelango/)
+### [ai-qa-eval](https://github.com/ravinelango/ai-qa-eval)
+
+An LLM quality-engineering portfolio that tests an LLM application the way a QA team would, on a public FDA 21 CFR Part 11 guidance corpus.
+
+| Phase | What | Status |
+|---|---|---|
+| 0 | Scaffold: provider contract, budget guard, tracing (local JSONL / Langfuse), CI | ✅ Done |
+| 1 | RAG eval harness: golden dataset, Ragas/DeepEval metrics, validated LLM-as-a-judge, CI release gate | 🛠️ Next |
+| 2 | Agent red-team suite: promptfoo + garak, OWASP LLM Top 10 | 🗺️ Roadmap |
+| 3 | Model-upgrade regression dashboard: paired stats, latency/cost, Streamlit | 🗺️ Roadmap |
+
+Ground rule: no made-up evidence. Every number in that repo will come from a saved run, and nothing is reported until it has run.
+
+## Toolkit
+
+**Testing & automation:** Python · pytest · Playwright · Selenium · Tosca · LoadRunner · JMeter · GitHub Actions
+**LLM eval (current focus):** DeepEval · Ragas · promptfoo · garak · Langfuse · Arize Phoenix · LangSmith · Anthropic & OpenAI APIs
+**Data & cloud:** Azure · KQL · AWS
+
+**Education:** MS, Information Technology and Management, Illinois Institute of Technology
+
+## Open to
+
+AI Evaluation / LLM Evaluation Engineer, AI Quality Engineer, AI Quality & Reliability, and AI eval leadership roles. Chicago or remote.
+
+📫 [Connect on LinkedIn](https://www.linkedin.com/in/ravinelango/)
