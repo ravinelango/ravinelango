@@ -14,10 +14,10 @@ Ground rule: no made-up evidence. Every number comes from a saved run.
 
 ## Highlights from my QA career
 
-- Built an AI-driven Python/Playwright test automation solution that avoided about $200K in licensing costs (Penguin Random House)
+- Built an AI-driven Python/Playwright test automation solution that avoided about $200K in licensing costs
 - Used LLMs to cut manual test design and root-cause analysis effort by about 70%
-- Brought mobile app crashes down from 2% to 0.7% and lifted the app rating from 2.9 to 4.5 stars (BMW connected app)
-- Led UAT for a health record portal serving about 50 million consumers (UnitedHealth Group)
+- Brought mobile app crashes down from 2% to 0.7% and lifted the app's rating from 2.9 to 4.5 stars
+- Led UAT for a health record portal serving about 50 million consumers
 
 ## Toolbox
 
