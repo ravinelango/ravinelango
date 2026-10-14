@@ -29,6 +29,14 @@
 
 Turns an LLM eval run into an audit-ready validation record: a SHA-256 hash-chained run log with a `verify` command that catches edits, a requirements traceability matrix, and a one-page validation summary, each mapped to FDA 21 CFR Part 11 clauses. Early stage with synthetic example data only; it supports evidence and is not itself a compliant system.
 
+### [judge-calibration-kit](https://github.com/ravinelango/judge-calibration-kit)
+
+Measures whether an LLM-as-a-judge can be trusted before its scores are used: agreement with human labels (Cohen's kappa with a bootstrap CI, Wilson CIs on pass rates), a per-rubric-criterion breakdown, a human-to-human baseline, and a disagreement report. Early stage; synthetic demo data only, no real results yet.
+
+### [agent-uat-playbook](https://github.com/ravinelango/agent-uat-playbook)
+
+User acceptance testing for AI agents: Given/When/Then acceptance scenarios with expected and forbidden tool calls and guardrails, a business-user test script, an agent defect triage guide, and a go/no-go sign-off report usable as a release gate. Synthetic example only.
+
 ### [ai-qa-eval](https://github.com/ravinelango/ai-qa-eval)
 
 An LLM quality-engineering portfolio that tests an LLM application the way a QA team would, on a public FDA 21 CFR Part 11 guidance corpus.
