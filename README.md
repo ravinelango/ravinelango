@@ -50,6 +50,10 @@ An LLM quality-engineering portfolio that tests an LLM application the way a QA 
 
 Ground rule: no made-up evidence. Every number in that repo will come from a saved run, and nothing is reported until it has run.
 
+## Eval notes
+
+- [Validate the validator: QA habits that carry over to LLM evals](notes/validate-the-validator.md): judge agreement vs accuracy, tamper-evident eval records, and UAT for agents, from building three small open-source tools.
+
 ## Toolkit
 
 **Testing & automation:** Python · pytest · Playwright · Selenium · Tosca · LoadRunner · JMeter · GitHub Actions
