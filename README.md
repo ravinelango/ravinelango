@@ -37,6 +37,10 @@ Measures whether an LLM-as-a-judge can be trusted before its scores are used: ag
 
 User acceptance testing for AI agents: Given/When/Then acceptance scenarios with expected and forbidden tool calls and guardrails, a business-user test script, an agent defect triage guide, and a go/no-go sign-off report usable as a release gate. Synthetic example only.
 
+### [prior-auth-appeal-eval](https://github.com/ravinelango/prior-auth-appeal-eval)
+
+Deterministic checks for LLM-drafted prior-authorization appeal letters: invented policy citations, clinical facts not in the chart, wrong identifiers, letters that miss the denial reason, and over-shared PHI, rolled up into a go/no-go report. 28 synthetic denial cases (25 generated, 3 hand-written); no real-model results yet.
+
 ### [ai-qa-eval](https://github.com/ravinelango/ai-qa-eval)
 
 An LLM quality-engineering portfolio that tests an LLM application the way a QA team would, on a public FDA 21 CFR Part 11 guidance corpus.
